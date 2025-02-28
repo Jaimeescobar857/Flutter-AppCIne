@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+
 import '../constants/constants.dart';
+
 import 'models/models.dart';
 
 final section1 = List.generate(
@@ -99,8 +101,8 @@ final movies = [
     image: 'assets/images/aladdin.jpg',
     screenPreview: 'assets/images/aladdin.jpg',
     description:
-      'A kind- hearted street urchin and a power-hungry Grand vizier vie for'
-      'a magic lamp that has the power to make their deepest wishes come true.',
+        'A kind- hearted street urchin and a power-hungry Grand vizier vie for'
+        'a magic lamp that has the power to make their deepest wishes come true.',
     type: 'Fantasy', 
     hours: 2,
     director: 'richie', 
