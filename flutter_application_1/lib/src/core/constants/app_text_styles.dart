@@ -27,7 +27,12 @@ class AppTextStyles {
       letterSpacing: 1.1);
   
   static const movieDescriptionStyle = 
-      Te
+      TextStyle(fontSize:20, fontWeight: FontWeight.w300);
 
+  static const infoTitleStyle = 
+      TextStyle(fontSize:20, fontWeight: FontWeight.w400);
+
+  static const infoContentStyle = 
+      TextStyle(fontSize:20, fontWeight: FontWeight.w700);
 
 }
